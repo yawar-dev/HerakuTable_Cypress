@@ -11,9 +11,9 @@ describe('Feeding data to the table', () => {
   it('verify json data and the table data is the same!', () => {
     //click on the Table Data marker |>
 
-    tablepage.tableDataMarker.click();
+    tablepage.TableDataMarker.click();
     //clearing the testarea box where json is to over write.
-    tablepage.textareaInput.click().clear();
+    tablepage.TextareaInput.click().clear();
 
     //Use of fixture data sampledata.json
     cy.fixture("sampledata.json").then((jsondata) => {

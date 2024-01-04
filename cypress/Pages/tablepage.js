@@ -2,11 +2,11 @@
 
 class tablepage{
     // Elements
-    get tableDataMarker() {
+    get TableDataMarker() {
       return cy.get('summary');
     }
   
-    get textareaInput() {
+    get TextareaInput() {
       return cy.get('#jsondata');
     }
   
